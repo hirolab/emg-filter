@@ -10,6 +10,21 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/alexwurobot/emg-filter** and import
 
+## Usage 
+
+### ``emg-filter``
+
+Use the ``emg-filter`` block to read the filtered EMG data.
+
+```blocks
+basic.forever(function () {
+    led.plotBarGraph(
+    EmgFilter.EmgFilter(),
+    1023
+    )
+})
+```
+
 ## Edit this project ![Build status badge](https://github.com/alexwurobot/emg-filter/workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
