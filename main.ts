@@ -13,7 +13,7 @@ namespace EmgFilter {
      * Use dynamic average window to filter EMG signal 
      */
     //% blockId = EmgFilter
-    //% block="set P3 pin as analog read pin"
+    //% block="EMG_filtered"
     //% inlineInputMode=inline
     export function EmgFilter(): int32 {
         EMG = pins.analogReadPin(AnalogPin.P3)
@@ -24,10 +24,6 @@ namespace EmgFilter {
             sum = sum + list[index]
         }
         ave = sum / 15
-        led.plotBarGraph(
-            ave,
-            1023
-        )
         return ave
     }
 }
