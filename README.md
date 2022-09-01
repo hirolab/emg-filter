@@ -42,5 +42,9 @@ This image may take a few minutes to refresh.
 
 #### Metadata (used for search, rendering)
 
+Reference video: https://youtu.be/ztrm4XehfGo
+Reference return value: https://makecode.microbit.org/courses/blocks-to-javascript/writing-functions
+
+
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
