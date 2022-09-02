@@ -1,8 +1,7 @@
-
 /**
  * EMG blocks
  */
-//% weight = 80 color=#0fbc11 icon=""
+//% weight=80 color=#0fbc11 icon=""
 
 let ave = 0
 let sum = 0
@@ -12,7 +11,6 @@ for (let index = 0; index <= 15; index++) {
     EMG = pins.analogReadPin(AnalogPin.P3)
     list.push(EMG)
 }
-
 
 namespace EmgFilter {
     /**
