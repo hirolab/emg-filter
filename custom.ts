@@ -6,7 +6,6 @@ namespace EmgFilter {
     /**
      * Use dynamic average window to filter EMG signal
      */
-    //% blockId = EmgFilter
     //% block="EMG_filtered"
     
     let ave = 0
