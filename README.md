@@ -24,6 +24,7 @@ basic.forever(function () {
     )
 })
 ```
+Demo video: https://youtu.be/gieYM_RnGLI
 
 ## Edit this project ![Build status badge](https://github.com/alexwurobot/emg-filter/workflows/MakeCode/badge.svg)
 
@@ -46,5 +47,3 @@ Reference video: https://youtu.be/ztrm4XehfGo
 Reference return value: https://makecode.microbit.org/courses/blocks-to-javascript/writing-functions
 
 
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
