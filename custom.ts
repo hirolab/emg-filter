@@ -25,7 +25,7 @@ let min_angle = 20
 //% weight=100 color=#0fbc11 icon=""
 namespace custom {
     /**
-     * Use dynamic average window to filter EMG signal
+     * Use dynamic average window to filter EMG signal from Pin P3
      */
     //% block="EMG_filtered"
     export function EmgFilter(): number {
