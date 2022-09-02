@@ -1,3 +1,9 @@
+
+/**
+ * EMG blocks
+ */
+//% weight = 80 color=#0fbc11 icon=""
+
 let ave = 0
 let sum = 0
 let list: number[] = []
