@@ -14,7 +14,6 @@ namespace EmgFilter {
      */
     //% blockId = EmgFilter
     //% block="EMG_filtered"
-    //% inlineInputMode=inline
     export function EmgFilter(): int32 {
         EMG = pins.analogReadPin(AnalogPin.P3)
         list.unshift(EMG)

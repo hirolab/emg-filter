@@ -41,9 +41,9 @@ This image may take a few minutes to refresh.
 
 ![A rendered view of the blocks](https://github.com/alexwurobot/emg-filter/raw/master/.github/makecode/blocks.png)
 
-#### Metadata (used for search, rendering)
+#### Reference 
 
-Reference video: https://youtu.be/ztrm4XehfGo
-Reference return value: https://makecode.microbit.org/courses/blocks-to-javascript/writing-functions
-
+* How to write own functino video: https://youtu.be/ztrm4XehfGo
+* Return value issue solved: https://makecode.microbit.org/courses/blocks-to-javascript/writing-functions
+* Update inline multi-input variable: https://makecode.com/defining-blocks
 
