@@ -26,7 +26,7 @@ basic.forever(function () {
 ```
 Demo video: https://youtu.be/gieYM_RnGLI
 
-## Edit this project ![Build status badge](https://github.com/alexwurobot/emg-filter/workflows/MakeCode/badge.svg)
+## Edit this project 
 
 To edit this repository in MakeCode.
 
