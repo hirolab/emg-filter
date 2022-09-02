@@ -7,7 +7,7 @@ namespace EmgFilter {
      * Use dynamic average window to filter EMG signal
      */
     //% block="EMG_filtered"
-    
+
     let ave = 0
     let sum = 0
     let list: number[] = []
