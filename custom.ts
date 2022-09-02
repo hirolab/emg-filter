@@ -4,12 +4,6 @@
 * Read more at https://makecode.microbit.org/blocks/custom
 */
 
-enum MyEnum {
-    //% block="one"
-    One,
-    //% block="two"
-    Two
-}
 
 let ave = 0
 let sum = 0
@@ -20,7 +14,10 @@ for (let index = 0; index <= 15; index++) {
     list.push(EMG)
 }
 
-
+let angle = 60
+let max_angle = 160
+let min_angle = 20
+//servos.P0.setAngle(angle)
 
 /**
  * Custom blocks
@@ -45,11 +42,24 @@ namespace custom {
     }
 
     /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
+     * Address motor rotation direction and speed by acceleration
      */
-    //% block
-    export function fib(value: number): number {
-        return value <= 1 ? value : fib(value -1) + fib(value - 2);
+    //% block="set P0 servo rotates in the direction %direction by %speed (ms) interval"
+    export function SetTurnSpeed(direction: number, speed: number): void {
+        if (Math.abs(direction) >= 100) {
+            if (direction <= 0) {
+                angle = angle - 3
+            } else {
+                angle = angle + 3
+            }
+            if (angle <= min_angle) {
+                angle = min_angle
+            }
+            if (angle >= max_angle) {
+                angle = max_angle
+            }
+            //servos.P0.setAngle(angle)
+        }
+        basic.pause(speed)
     }
 }
