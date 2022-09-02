@@ -1,17 +1,15 @@
 {
     "name": "emg-filter",
-    "version": "0.0.11",
+    "version": "0.0.3",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*",
-        "servo": "*"
+        "microphone": "*"
     },
     "files": [
         "main.ts",
-        "README.md",
-        "custom.ts"
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
