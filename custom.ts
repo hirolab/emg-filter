@@ -17,7 +17,7 @@ for (let index = 0; index <= 15; index++) {
 let angle = 60
 let max_angle = 160
 let min_angle = 20
-//servos.P0.setAngle(angle)
+servos.P0.setAngle(angle)
 
 /**
  * Custom blocks
@@ -58,7 +58,7 @@ namespace custom {
             if (angle >= max_angle) {
                 angle = max_angle
             }
-            //servos.P0.setAngle(angle)
+            servos.P0.setAngle(angle)
         }
         basic.pause(speed)
     }
