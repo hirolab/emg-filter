@@ -23,7 +23,7 @@ namespace Neupulator {
     /**
      * Use dynamic average window to filter EMG_raw signal from Pin P3
      */
-    //% block="EMG_Signal"
+    //% block="EMG Signal"
     export function EMG_rawFilter(): number {
         // Add code here
         EMG_raw = pins.analogReadPin(AnalogPin.P3)
