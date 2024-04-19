@@ -7,10 +7,10 @@
 let ave = 0
 let sum = 0
 let list: number[] = []
-let EMG = 0
+let EMG_raw = 0
 for (let index = 0; index <= 15; index++) {
-    EMG = pins.analogReadPin(AnalogPin.P3)
-    list.push(EMG)
+    EMG_raw = pins.analogReadPin(AnalogPin.P3)
+    list.push(EMG_raw)
 }
 
 
@@ -19,10 +19,10 @@ namespace EmgFilter {
      * Use dynamic average window to filter EMG signal 
      */
     //% blockId = EmgFilter
-    //% block="EMG_filtered"
+    //% block="EMG_Signal"
     export function EmgFilter(): int32 {
-        EMG = pins.analogReadPin(AnalogPin.P3)
-        list.unshift(EMG)
+        EMG_raw = pins.analogReadPin(AnalogPin.P3)
+        list.unshift(EMG_raw)
         list.removeAt(15)
         sum = 0
         for (let index = 0; index <= 15; index++) {
