@@ -16,7 +16,7 @@ for (let index = 0; index <= 15; index++) {
 
 
 /**
- * Custom blocks
+ * Neupulator blocks
  */
 //% weight=100 color=#0fbc11 icon=""
 namespace Neupulator {
