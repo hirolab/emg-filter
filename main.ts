@@ -20,7 +20,7 @@ namespace EmgFilter {
      */
     //% blockId = EmgFilter
     //% block="EMG Signal"
-    export function EmgFilter(): int32 {
+    export function EMG_rawFilter(): int32 {
         EMG_raw = pins.analogReadPin(AnalogPin.P3)
         list.unshift(EMG_raw)
         list.removeAt(15)
