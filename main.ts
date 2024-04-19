@@ -19,7 +19,7 @@ namespace EmgFilter {
      * Use dynamic average window to filter EMG signal 
      */
     //% blockId = EmgFilter
-    //% block="EMG_Signal"
+    //% block="EMG Signal"
     export function EmgFilter(): int32 {
         EMG_raw = pins.analogReadPin(AnalogPin.P3)
         list.unshift(EMG_raw)
